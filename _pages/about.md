@@ -11,7 +11,7 @@ I'm a third year undergraduate student from [School of Information Science and E
 
 I am very fortunate to be advised by [Assoc. Prof. Li shengtao](http://www.ischool.sdnu.edu.cn/info/1322/5803.htm) of ACM Programming Contest Lab and[Lecturer. Sui xiaodan](http://www.ischool.sdnu.edu.cn/info/1323/7000.htm) of Shandong Provincial Key Lab for Intelligent Computing & Information Security in Universities from School of Information Science and Engineering, Shandong Normal University. 
 
-You can find my CV here: [XX's Curriculum Vitae](../assets/Resume.pdf).
+You can find my CV here: [Yin bowen's Curriculum Vitae](../assets/Resume.pdf).
 
 [Email](mailto:elisia.ybw@gmail.com) / [Github](https://github.com/YbwElysia) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/qd1813100174?spm=1000.2115.3001.5343)
 

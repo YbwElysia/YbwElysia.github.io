@@ -9,7 +9,7 @@ redirect_from:
 
 I'm a third year undergraduate student from [School of Information Science and Engineering](http://www.ischool.sdnu.edu.cn/), [Shandong Normal University](https://www.sdnu.edu.cn/). My research interest includes Artificial Intelligence, Computer Vision and Medical Image Processing.
 
-I am very fortunate to be advised by [Assoc. Prof. Li shengtao](http://www.ischool.sdnu.edu.cn/info/1322/5803.htm) of ACM Programming Contest Lab and[Lecturer. Sui xiaodan](http://www.ischool.sdnu.edu.cn/info/1323/7000.htm) of Shandong Provincial Key Lab for Intelligent Computing & Information Security in Universities from School of Information Science and Engineering, Shandong Normal University. 
+I am very fortunate to be advised by [Assoc. Prof. Li shengtao](http://www.ischool.sdnu.edu.cn/info/1322/5803.htm) of ACM Programming Contest Lab and[Lecturer. Sui xiaodan](http://www.ischool.sdnu.edu.cn/info/1323/7000.htm) of Shandong Provincial Key Lab for Intelligent Computing & Information Security in Universities, from School of Information Science and Engineering, Shandong Normal University. 
 
 You can find my CV here: [Yin bowen's Curriculum Vitae](../assets/resume.pdf).
 

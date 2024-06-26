@@ -21,9 +21,17 @@ You can find my CV here: [Yin bowen's Curriculum Vitae](../assets/resume.pdf).
 EDUCATION
 ======
 Shandong Normal University Jinan, China
+
+
 Bachelor of Computer Science and Technology Sep. 2021 – Present
+
+
 • GPA: 3.87 / 5.0 (3.74 / 4.0)
+
+
 • Research with Assoc. Prof. Li shengtao and Lecturer. Sui xiaodan
+
+
 • A subjects: Human-Computer Interaction Technology (100), Mobile Internet Development(100),Digital Image Processing (99), Algorithm Analysis and Design (95), Python Programming (95), Principles of Computer Networks(92), Linear Algebra(91),Probability and Statistics (91) et al.
 
 COURSE PROJECT
@@ -41,16 +49,25 @@ COURSE PROJECT
 RESEARCH EXPERIENCE
 ------
 **Deformable Multi-level Feature Network Applied to Nucleus Segmentation**       2023.11 - Present
+
 *Objective: To establish DMFNet by integrating DCN, BFP, and SOLO to enhance the performance of the segmentation network in nucleus segmentation.*
+
 • This work will be published Frontiers in Oncology.
+
 • Proposed a novel called the DMFNet, for nuclear segmentation from digital pathology images of different organs.
+
 • This study analyzed the process of cell nucleus segmentation, and improved the feature extraction, fusion, and mask generation processes.
 
 AWARDS & HONORS
 ------
 Awards: 2 national award, more than 10 provincial awards;
+
 China Software and Information Technology “Blue Bridge Cup” Design Competition - **Second Prize** 2024
+
 National Collegiate Programming Contest on Algorithm Design and Programming - **Second Prize** 2022
+
 China Undergraduate Mathematical Contest in Modeling - **Provincial Second Prize** 2023
+
 The 2022 ICPC China Shandong Provincial Programming Contest - **Bronze** 2022
+
 Scholarship of Bachelor Degree student - First-Class (Top 10%, one time)

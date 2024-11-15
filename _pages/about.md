@@ -21,29 +21,19 @@ You can find my CV here: [Yin bowen's Curriculum Vitae](../assets/resume.pdf).
 EDUCATION
 ======
 Shandong Normal University Jinan, China
-
-
 Bachelor of Computer Science and Technology Sep. 2021 – Present
-
-
 • Ranking: 4/89
-
-
-• Research with Assoc. Prof. Li shengtao and Lecturer. Sui xiaodan
-
-
 • A subjects: Human-Computer Interaction Technology (100), Mobile Internet Development(100),Digital Image Processing (99), Algorithm Analysis and Design (95), Python Programming (95), Principles of Computer Networks(92), Linear Algebra(91),Probability and Statistics (91) et al.
+
+Shandong University Jinan, China
+Master's student in Artificial Intelligence Sep.2025 fall
 
 COURSE PROJECT
 ------
 ***Pedestrian Detection on NVlDlA Jetson*** 
-
 ***Voice Assistant Based on Vits and ChatGLM*** in Human-Computer Interaction Technology
-
 ***License plate segmentation based on OpenCV*** in Digital Image Processing
-
 ***From CNN to Vision Transformer: Performance Analysis on ClFAR-10 Dataset*** in Mechine Learning
-
 ***Zhi Yi Xing，a nonprofit second-hand trading platform*** in Mobile Internet Development
 
 RESEARCH EXPERIENCE
@@ -60,14 +50,14 @@ RESEARCH EXPERIENCE
 
 AWARDS & HONORS
 ------
-Awards: 2 national award, more than 10 provincial awards;
+Awards: 4 national award, more than 10 provincial awards;
 
-China Software and Information Technology “Blue Bridge Cup” Design Competition - **Second Prize** 2024
+China Software and Information Technology “Blue Bridge Cup” Design Competition - **National Second Prize** 2024
 
-National Collegiate Programming Contest on Algorithm Design and Programming - **Second Prize** 2022
+National Collegiate Programming Contest on Algorithm Design and Programming - **National Second Prize** 2022
 
 China Undergraduate Mathematical Contest in Modeling - **Provincial Second Prize** 2023
 
 The 2022 ICPC China Shandong Provincial Programming Contest - **Bronze** 2022
 
-Scholarship of Bachelor Degree student - First-Class (Top 10%, one time)
+Scholarship of Bachelor Degree student - First-Class (Top 10%, two times)

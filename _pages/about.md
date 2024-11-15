@@ -31,14 +31,18 @@ Master's student in Artificial Intelligence Sep.2025 fall
 COURSE PROJECT
 ------
 ***Pedestrian Detection on NVlDlA Jetson*** 
+
 ***Voice Assistant Based on Vits and ChatGLM*** in Human-Computer Interaction Technology
+
 ***License plate segmentation based on OpenCV*** in Digital Image Processing
+
 ***From CNN to Vision Transformer: Performance Analysis on ClFAR-10 Dataset*** in Mechine Learning
+
 ***Zhi Yi Xing，a nonprofit second-hand trading platform*** in Mobile Internet Development
 
 RESEARCH EXPERIENCE
 ------
-**Deformable Multi-level Feature Network Applied to Nucleus Segmentation**       2023.11 - Present
+**Deformable Multi-level Feature Network Applied to Nucleus Segmentation**       2022.11 - 2024.6
 
 *Objective: To establish DMFNet by integrating DCN, BFP, and SOLO to enhance the performance of the segmentation network in nucleus segmentation.*
 

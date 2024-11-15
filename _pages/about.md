@@ -23,17 +23,17 @@ You can find my CV here: [Yin bowen's Curriculum Vitae](../assets/resume.pdf).
 EDUCATION  
 ======  
 
-Shandong Normal University, Jinan, China  
+**Shandong Normal University**, Jinan, China
 
 Bachelor of Computer Science and Technology  
 Sep. 2021 – Present  
 
-• Ranking: 4/89  
+• Rank:  4/89  
 
 • A subjects: Human-Computer Interaction Technology (100), Mobile Internet Development (100), Digital Image Processing (99), Algorithm Analysis and Design (95), Python Programming (95), Principles of Computer Networks (92), Linear Algebra (91), Probability and Statistics (91), etc.
 
 
-Shandong University Jinan, China  
+**Shandong University**, Jinan, China  
 Master's student in Artificial Intelligence Sep.2025 fall  
 
 COURSE PROJECT

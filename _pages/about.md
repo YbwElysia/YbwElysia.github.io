@@ -15,7 +15,7 @@ I am honored to study under [Prof. Yiran Shen](https://faculty.sdu.edu.cn/shenyi
 
 You can find my CV here: [Yin bowen's Curriculum Vitae](../assets/resume.pdf).
 
-[Email](mailto:elisia.ybw@gmail.com) / [Github](https://github.com/YbwElysia) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/qd1813100174?spm=1000.2115.3001.5343)
+[Email](mailto:elisia.ybw@gmail.com) / [Github](https://github.com/YbwElysia) / [CSDN](https://blog.csdn.net/qq_63747498?spm=1000.2115.3001.5343)
 
 
 EDUCATION

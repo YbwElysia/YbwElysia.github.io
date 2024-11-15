@@ -50,7 +50,7 @@ RESEARCH EXPERIENCE
 
 AWARDS & HONORS
 ------
-Awards: 4 national award, more than 10 provincial awards;
+Awards: **4 national award, more than 10 provincial awards**;
 
 China Software and Information Technology “Blue Bridge Cup” Design Competition - **National Second Prize** 2024
 

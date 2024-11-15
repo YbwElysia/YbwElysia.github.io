@@ -26,7 +26,7 @@ EDUCATION
 **Shandong Normal University**, Jinan, China  
 Bachelor of Computer Science and Technology  Sep. 2021 – Present  
 • Rank:  4/89  
-• A subjects: Human-Computer Interaction Technology (100), Mobile Internet Development (100), Digital Image Processing (99), Algorithm Analysis and Design (95), Python Programming (95), Principles of Computer Networks (92), Linear Algebra (91), Probability and Statistics (91), etc.
+• A subjects: Human-Computer Interaction Technology (100), Mobile Internet Development (100), Digital Image Processing (99), Algorithm Analysis and Design (95), etc.
 
 **Shandong University**, Jinan, China  
 Master's student in Artificial Intelligence Sep.2025 fall  

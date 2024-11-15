@@ -36,17 +36,6 @@ Sep. 2021 – Present
 **Shandong University**, Jinan, China  
 Master's student in Artificial Intelligence Sep.2025 fall  
 
-COURSE PROJECT
-------
-***Pedestrian Detection on NVlDlA Jetson*** 
-
-***Voice Assistant Based on Vits and ChatGLM*** in Human-Computer Interaction Technology
-
-***License plate segmentation based on OpenCV*** in Digital Image Processing
-
-***From CNN to Vision Transformer: Performance Analysis on ClFAR-10 Dataset*** in Mechine Learning
-
-***Zhi Yi Xing，a nonprofit second-hand trading platform*** in Mobile Internet Development
 
 RESEARCH EXPERIENCE
 ------

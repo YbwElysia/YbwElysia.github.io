@@ -13,7 +13,7 @@ I am very fortunate to be advised by [Assoc. Prof. Li shengtao](http://www.ischo
 
 If you are instrested in SDNU_ACMlab, welcome to visit this link：[SDNU-ACM Lab](http://152.136.175.166/)
 
-I am honored to study under [Prof. Yiran Shen](https://faculty.sdu.edu.cn/shenyiran/zh_CN/index.htm) and am currently affiliated with the IGIP Laboratory at the School of Software, Shandong University.
+I am now very fortunate to be advised by [Prof. Yiran Shen](https://faculty.sdu.edu.cn/shenyiran/zh_CN/index.htm) and am currently affiliated with the IGIP Laboratory at the School of Software, Shandong University.
 
 You can find my CV here: [Yin bowen's Curriculum Vitae](../assets/resume.pdf).
 

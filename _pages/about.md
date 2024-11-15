@@ -26,7 +26,7 @@ Shandong Normal University Jinan, China
 Bachelor of Computer Science and Technology Sep. 2021 – Present
 
 
-• GPA: 3.87 / 5.0 (3.74 / 4.0)
+• Ranking: 4/89
 
 
 • Research with Assoc. Prof. Li shengtao and Lecturer. Sui xiaodan

@@ -20,12 +20,18 @@ You can find my CV here: [Yin bowen's Curriculum Vitae](../assets/resume.pdf).
 [Email](mailto:elisia.ybw@gmail.com) / [Github](https://github.com/YbwElysia) / [CSDN](https://blog.csdn.net/qq_63747498?spm=1000.2115.3001.5343)
 
 
-EDUCATION
-======
-Shandong Normal University Jinan, China
-Bachelor of Computer Science and Technology Sep. 2021 – Present
-• Ranking: 4/89
-• A subjects: Human-Computer Interaction Technology (100), Mobile Internet Development(100),Digital Image Processing (99), Algorithm Analysis and Design (95), Python Programming (95), Principles of Computer Networks(92), Linear Algebra(91),Probability and Statistics (91) et al.
+EDUCATION  
+======  
+
+Shandong Normal University, Jinan, China  
+
+Bachelor of Computer Science and Technology  
+Sep. 2021 – Present  
+
+• Ranking: 4/89  
+
+• A subjects: Human-Computer Interaction Technology (100), Mobile Internet Development (100), Digital Image Processing (99), Algorithm Analysis and Design (95), Python Programming (95), Principles of Computer Networks (92), Linear Algebra (91), Probability and Statistics (91), etc.
+
 
 Shandong University Jinan, China
 Master's student in Artificial Intelligence Sep.2025 fall

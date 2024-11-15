@@ -39,15 +39,11 @@ Master's student in Artificial Intelligence Sep.2025 fall
 
 RESEARCH EXPERIENCE
 ------
-**Deformable Multi-level Feature Network Applied to Nucleus Segmentation**       2022.11 - 2024.6
-
-*Objective: To establish DMFNet by integrating DCN, BFP, and SOLO to enhance the performance of the segmentation network in nucleus segmentation.*
-
-• This work will be published Frontiers in Oncology.
-
-• Proposed a novel called the DMFNet, for nuclear segmentation from digital pathology images of different organs.
-
-• This study analyzed the process of cell nucleus segmentation, and improved the feature extraction, fusion, and mask generation processes.
+**Deformable Multi-level Feature Network Applied to Nucleus Segmentation**       2022.11 - 2024.6  
+*Objective: To establish DMFNet by integrating DCN, BFP, and SOLO to enhance the performance of the segmentation network in nucleus segmentation.*  
+• This work will be published Frontiers in Oncology.  
+• Proposed a novel called the DMFNet, for nuclear segmentation from digital pathology images of different organs.  
+• This study analyzed the process of cell nucleus segmentation, and improved the feature extraction, fusion, and mask generation processes.  
 
 AWARDS & HONORS
 ------

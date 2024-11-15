@@ -11,6 +11,8 @@ I'm a fourth year undergraduate student from [School of Information Science and 
 
 I am very fortunate to be advised by [Assoc. Prof. Li shengtao](http://www.ischool.sdnu.edu.cn/info/1322/5803.htm) of ACM Programming Contest Lab and[Lecturer. Sui xiaodan](http://www.ischool.sdnu.edu.cn/info/1323/7000.htm) of Shandong Provincial Key Lab for Intelligent Computing & Information Security in Universities, from School of Information Science and Engineering, Shandong Normal University. 
 
+If you are instrested in SDNU_ACMlab, welcome to visit this link：http://152.136.175.166/
+
 I am honored to study under [Prof. Yiran Shen](https://faculty.sdu.edu.cn/shenyiran/zh_CN/index.htm) and am currently affiliated with the IGIP Laboratory at the School of Software, Shandong University.
 
 You can find my CV here: [Yin bowen's Curriculum Vitae](../assets/resume.pdf).

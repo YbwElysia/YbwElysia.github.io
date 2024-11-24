@@ -21,7 +21,7 @@ You can find my CV here: [Yin bowen's Curriculum Vitae](../assets/resume.pdf).
 
 NEWS 
 ------
-2024.11 One paper has been accepted by Frontiers in Microbiology (SCI 2区）
+*2024.11 One paper has been accepted by Frontiers in Microbiology (SCI Q2)*
 
 
 EDUCATION  

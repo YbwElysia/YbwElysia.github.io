@@ -11,7 +11,7 @@ I’m a fourth-year undergraduate student from the [School of Information Scienc
 
 I was very fortunate to be advised by [Assoc. Prof. Li Shengtao](http://www.ischool.sdnu.edu.cn/info/1322/5803.htm) from the ACM Programming Contest Lab during my first and second years.
 
-In my third year, I had the privilege of working under the guidance of [Lecturer Sui Xiaodan](http://www.ischool.sdnu.edu.cn/info/1323/7000.htm).
+I had the privilege of working under the guidance of [Lecturer Sui Xiaodan](http://www.ischool.sdnu.edu.cn/info/1323/7000.htm) in my third year.
 
 I am now very fortunate to be advised by [Prof. Yiran Shen](https://faculty.sdu.edu.cn/shenyiran/zh_CN/index.htm) and am currently affiliated with the IGIP Laboratory at the School of Software, Shandong University.
 

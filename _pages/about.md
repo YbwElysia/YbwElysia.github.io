@@ -39,7 +39,7 @@ Master's student in Artificial Intelligence Sep.2025 fall
 RESEARCH EXPERIENCE
 ------
 **1.[Deformable Multi-level Feature Network Applied to Nucleus Segmentation](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2024.1519871/abstract)**   
-This work has been accepted by **Frontiers in Microbiology** (SCI Q2), where I contributed to the experimental work and part of the paper writing as the 3td author.
+This work has been accepted by Frontiers in Microbiology, where I contributed to the experimental work and part of the paper writing as the 3td author.
 
 
 

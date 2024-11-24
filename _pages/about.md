@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m a fourth-year undergraduate student from the [School of Information Science and Engineering](http://www.ischool.sdnu.edu.cn/), [Shandong Normal University](https://www.sdnu.edu.cn/). My research interests include Artificial Intelligence, Computer Vision, and VR.
+I’m a fourth-year undergraduate student from the [School of Information Science and Engineering](http://www.ischool.sdnu.edu.cn/), [Shandong Normal University](https://www.sdnu.edu.cn/). My research interests include **Artificial Intelligence, Computer Vision, and VR.**
 
 I was very fortunate to be advised by [Assoc. Prof. Li Shengtao](http://www.ischool.sdnu.edu.cn/info/1322/5803.htm) from the ACM Programming Contest Lab during my first and second years.
 

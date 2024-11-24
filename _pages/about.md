@@ -19,6 +19,10 @@ You can find my CV here: [Yin bowen's Curriculum Vitae](../assets/resume.pdf).
 
 [Email](mailto:elisia.ybw@gmail.com) / [Github](https://github.com/YbwElysia) / [CSDN](https://blog.csdn.net/qq_63747498?spm=1000.2115.3001.5343)
 
+NEWS 
+------
+2024.11 One paper has been accepted by Frontiers in Microbiology (SCI 2区）
+
 
 EDUCATION  
 ------
@@ -35,7 +39,7 @@ Master's student in Artificial Intelligence Sep.2025 fall
 RESEARCH EXPERIENCE
 ------
 **1.[Deformable Multi-level Feature Network Applied to Nucleus Segmentation](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2024.1519871/abstract)**   
-This work has been accepted by **Frontiers in Microbiology** (SCI Q2) in 2024.11 
+This work has been accepted by **Frontiers in Microbiology** (SCI Q2), where I contributed to the experimental work and part of the paper writing as the 3td author.
 
 
 

@@ -7,21 +7,22 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fourth year undergraduate student from [School of Information Science and Engineering](http://www.ischool.sdnu.edu.cn/), [Shandong Normal University](https://www.sdnu.edu.cn/). My research interest includes Artificial Intelligence, Computer Vision and VR.
+I’m a fourth-year undergraduate student from the [School of Information Science and Engineering](http://www.ischool.sdnu.edu.cn/), [Shandong Normal University](https://www.sdnu.edu.cn/). My research interests include Artificial Intelligence, Computer Vision, and VR.
 
-I am very fortunate to be advised by [Assoc. Prof. Li shengtao](http://www.ischool.sdnu.edu.cn/info/1322/5803.htm) of ACM Programming Contest Lab and[Lecturer. Sui xiaodan](http://www.ischool.sdnu.edu.cn/info/1323/7000.htm) of Shandong Provincial Key Lab for Intelligent Computing & Information Security in Universities, from School of Information Science and Engineering, Shandong Normal University. 
+I was very fortunate to be advised by [Assoc. Prof. Li Shengtao](http://www.ischool.sdnu.edu.cn/info/1322/5803.htm) from the ACM Programming Contest Lab during my first and second years.
 
-If you are instrested in SDNU_ACMlab, welcome to visit this link：[SDNU-ACM Lab](http://152.136.175.166/)
+In my third year, I had the privilege of working under the guidance of [Lecturer Sui Xiaodan](http://www.ischool.sdnu.edu.cn/info/1323/7000.htm).
 
 I am now very fortunate to be advised by [Prof. Yiran Shen](https://faculty.sdu.edu.cn/shenyiran/zh_CN/index.htm) and am currently affiliated with the IGIP Laboratory at the School of Software, Shandong University.
 
 You can find my CV here: [Yin bowen's Curriculum Vitae](../assets/resume.pdf).
 
-[Email](mailto:elisia.ybw@gmail.com) / [Github](https://github.com/YbwElysia) / [CSDN](https://blog.csdn.net/qq_63747498?spm=1000.2115.3001.5343)
+If you are instrested in SDNU_ACMlab, welcome to visit this link：[SDNU-ACM Lab](http://152.136.175.166/)
 
 NEWS 
 ------
-*2024.11 One paper has been accepted by Frontiers in Microbiology (SCI Q2)*
+*2024.11 One paper has been accepted by Frontiers in Microbiology (SCI Q2)*  
+*2024.10 The SDNU-ACM Lab is now online!*
 
 
 EDUCATION  
@@ -29,8 +30,8 @@ EDUCATION
 
 **Shandong Normal University**, Jinan, China  
 Bachelor of Computer Science and Technology  Sep. 2021 – Present  
-• Rank:  4/89  
-• A subjects: Human-Computer Interaction Technology (100), Mobile Internet Development (100), Digital Image Processing (99), Algorithm Analysis and Design (95), etc.
+• Major Ranking:  **4/89**  
+• **A** subjects: Human-Computer Interaction Technology (100), Mobile Internet Development (100), Digital Image Processing (99), Algorithm Analysis and Design (95), etc.
 
 **Shandong University**, Jinan, China  
 Master's student in Artificial Intelligence Sep.2025 fall  

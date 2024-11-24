@@ -17,7 +17,7 @@ I am now very fortunate to be advised by [Prof. Yiran Shen](https://faculty.sdu.
 
 You can find my CV here: [Yin bowen's Curriculum Vitae](../assets/resume.pdf).
 
-If you are instrested in SDNU_ACMlab, welcome to visit this link：[SDNU-ACM Lab](http://152.136.175.166/)
+If you are instrested in SDNU-ACM Lab, welcome to visit this link：[SDNU-ACM Lab](http://152.136.175.166/)
 
 NEWS 
 ------

@@ -46,8 +46,7 @@ AWARDS & HONORS
 ------
 Awards: **4 national award, more than 10 provincial awards**;
 
-China Software and Information Technology “Blue Bridge Cup” Design Competition - **National Second Prize** 2024  
-National Collegiate Programming Contest on Algorithm Design and Programming - **National Second Prize** 2022  
+China Software and Information Technology LanQiao Cup Design Competition - **National Second Prize** 2024  
 China Undergraduate Mathematical Contest in Modeling - **Provincial Second Prize** 2023  
 The 2022 ICPC China Shandong Provincial Programming Contest - **Bronze** 2022  
 Scholarship of Bachelor Degree student - First-Class (Top 10%, two times)  

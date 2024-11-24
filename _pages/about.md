@@ -34,9 +34,9 @@ Master's student in Artificial Intelligence Sep.2025 fall
 
 RESEARCH EXPERIENCE
 ------
-**Deformable Multi-level Feature Network Applied to Nucleus Segmentation**       2022.11 - 2024.6  
-*Objective: To establish DMFNet by integrating DCN, BFP, and SOLO to enhance the performance of the segmentation network in nucleus segmentation.*  
-• This work will be published Frontiers in Microbiology and has been accepted (SCI 二区).  
+**1.[Deformable Multi-level Feature Network Applied to Nucleus Segmentation](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2024.1519871/abstract)** 
+This work has been accepted by **Frontiers in Microbiology** (SCI Q2) in 2024.11 
+
 
 
 AWARDS & HONORS

@@ -13,7 +13,7 @@ I was very fortunate to be advised by [Assoc. Prof. Li Shengtao](http://www.isch
 
 I had the privilege of working under the guidance of [Lecturer Sui Xiaodan](http://www.ischool.sdnu.edu.cn/info/1323/7000.htm) in my third year.
 
-I am now very fortunate to be advised by [Prof. Yiran Shen](https://faculty.sdu.edu.cn/shenyiran/zh_CN/index.htm) and am currently affiliated with the IGIP Laboratory at the School of Software, Shandong University.
+I am now very fortunate to be advised by [Prof. Yiran Shen](https://faculty.sdu.edu.cn/shenyiran/zh_CN/index.htm) and am currently affiliated with the[ IGIP Lab](https://igiplab.com/) at the School of Software, Shandong University.
 
 If you are instrested in **SDNU-ACM Lab**, welcome to visit this link：[SDNU-ACM Lab](http://152.136.175.166/)
 
@@ -45,7 +45,7 @@ This work has been accepted by Frontiers in Microbiology, where I contributed to
 
 AWARDS & HONORS
 ------
-Awards: **4 national award, more than 10 provincial awards**;
+Awards: **4 national awards, more than 10 provincial awards**;
 
 China Software and Information Technology LanQiao Cup Design Competition - **National Second Prize** 2024  
 China Undergraduate Mathematical Contest in Modeling - **Provincial Second Prize** 2023  

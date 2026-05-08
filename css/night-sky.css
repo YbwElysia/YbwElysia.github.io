@@ -1,0 +1,502 @@
+/* Star canvas: hidden now that we use photo background */
+#night-sky-canvas {
+  display: none !important;
+}
+
+/* Global palette */
+:root {
+  --theme-color: #38bdf8 !important;
+  --text-bg-hover: #38bdf8 !important;
+  --text-highlight-color: #38bdf8 !important;
+  --blockquote-color: #38bdf8 !important;
+  --by-bg: #000;
+  --by-panel: rgba(6, 10, 20, 0.72);
+  --by-panel-strong: rgba(4, 7, 14, 0.86);
+  --by-border: rgba(229, 231, 235, 0.10);
+  --by-border-hover: rgba(229, 231, 235, 0.22);
+  --by-text: rgba(248, 250, 252, 0.94);
+  --by-muted: rgba(203, 213, 225, 0.76);
+  --by-subtle: rgba(148, 163, 184, 0.58);
+}
+
+/* Photo background with dark overlay */
+html,
+body {
+  background: url('/img/bg-elysia.jpg') center center / cover fixed no-repeat !important;
+  color: var(--by-text);
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Dark overlay so content stays readable, image subtly shows through */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.68);
+  z-index: -1;
+  pointer-events: none;
+}
+
+#web_bg,
+#page-header,
+#page-header.nav-fixed #nav,
+#nav,
+#footer {
+  background: transparent !important;
+}
+
+#footer::before,
+#page-header::before {
+  background: transparent !important;
+}
+
+/* Hero layout: centered title only */
+#page-header.full_page {
+  background: transparent !important;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-header.full_page #site-info {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  transform: none !important;
+  max-width: 780px;
+  width: auto;
+  margin: 0 auto;
+  padding: clamp(32px, 4vw, 52px) clamp(40px, 6vw, 80px);
+  text-align: center;
+  background: transparent !important;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#page-header #site-title {
+  font-size: clamp(3.25rem, 4.4vw, 4.8rem);
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: 0.5px;
+  text-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.9),
+    0 4px 24px rgba(0, 0, 0, 0.7),
+    0 0 48px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  padding-bottom: 0.12em;
+  overflow: visible;
+}
+
+#page-header #site-subtitle {
+  margin-top: 18px;
+  font-size: clamp(1.18rem, 1.5vw, 1.45rem);
+  color: rgba(230, 238, 255, 0.92) !important;
+  letter-spacing: -0.01em;
+  text-shadow:
+    0 1px 6px rgba(0, 0, 0, 0.9),
+    0 2px 16px rgba(0, 0, 0, 0.65);
+}
+
+#page-header #scroll-down i {
+  color: rgba(203, 213, 225, 0.42) !important;
+}
+
+/* Layout breathing room */
+#content-inner {
+  max-width: 1360px;
+  padding-top: 34px;
+}
+
+.layout {
+  gap: 46px;
+}
+
+/* Uniform refined cards */
+#recent-posts .recent-post-item,
+#aside-content .card-widget,
+div#post,
+div#page,
+div#archive,
+div#tag,
+div#category {
+  background:
+    linear-gradient(145deg, rgba(6, 10, 20, 0.78), rgba(3, 5, 12, 0.72)) !important;
+  border: 1px solid var(--by-border);
+  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.46), inset 0 1px 0 rgba(255, 255, 255, 0.035);
+  backdrop-filter: blur(14px) saturate(125%);
+  border-radius: 20px;
+  transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease, background 0.24s ease;
+}
+
+#recent-posts .recent-post-item:hover,
+#aside-content .card-widget:hover,
+div#post:hover,
+div#page:hover {
+  transform: translateY(-4px);
+  border-color: var(--by-border-hover);
+  background:
+    linear-gradient(145deg, rgba(10, 14, 26, 0.88), rgba(5, 8, 16, 0.82)) !important;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.58), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* Top navigation – always frosted glass */
+#nav {
+  padding: 13px 32px;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.45) !important;
+  backdrop-filter: blur(18px) saturate(150%);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+#nav .site-name {
+  font-size: 16px !important;
+}
+
+#nav .menus_items .menus_item .site-page {
+  font-size: 16px !important;
+}
+
+#nav .menus_items .menus_item i,
+#nav #search-button i {
+  font-size: 17px !important;
+}
+
+#page-header.nav-fixed #nav {
+  background: rgba(0, 0, 0, 0.62) !important;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+  backdrop-filter: blur(22px) saturate(160%);
+  -webkit-backdrop-filter: blur(22px) saturate(160%);
+}
+
+#nav .site-name,
+#nav .menus_item .menus_item_child li a,
+#nav a,
+#page-header #site-title,
+#page-header #site-subtitle,
+#page-header #scroll-down i,
+#footer,
+#footer a {
+  color: var(--by-text) !important;
+}
+
+a:hover,
+#nav a:hover {
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+#aside-content .card-info .button--animated,
+#aside-content .card-info .card-info-btn {
+  background: rgba(245, 245, 245, 0.1) !important;
+  border: 1px solid rgba(245, 245, 245, 0.12);
+  color: rgba(245, 245, 245, 0.86) !important;
+  box-shadow: none !important;
+}
+
+#aside-content .card-info .button--animated:hover,
+#aside-content .card-info .card-info-btn:hover {
+  background: rgba(245, 245, 245, 0.16) !important;
+  border-color: rgba(245, 245, 245, 0.22);
+  color: #fff !important;
+}
+
+/* Typography hierarchy */
+#article-container h1,
+#article-container h2,
+#article-container h3 {
+  color: rgba(255, 255, 255, 0.96);
+  letter-spacing: -0.025em;
+}
+
+#article-container h2 {
+  margin-top: 2.2rem;
+  font-size: 1.75rem;
+}
+
+#article-container p,
+#article-container li {
+  color: rgba(226, 232, 240, 0.84);
+  line-height: 1.85;
+  font-size: 1.08rem;
+}
+
+#article-container .post-meta,
+#article-container .post-meta span,
+#recent-posts .post-meta-date,
+#recent-posts .post-meta {
+  color: var(--by-subtle) !important;
+  font-size: 14px;
+}
+
+#recent-posts .recent-post-item .recent-post-info .article-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: rgba(248, 250, 252, 0.94) !important;
+}
+
+#recent-posts .recent-post-item .content {
+  color: rgba(203, 213, 225, 0.72) !important;
+  line-height: 1.75;
+  font-size: 1.06rem;
+}
+
+#recent-posts .recent-post-item {
+  min-height: 188px;
+  margin-bottom: 30px;
+}
+
+#recent-posts .recent-post-item .post_cover {
+  border-radius: 18px 0 0 18px;
+  overflow: hidden;
+}
+
+/* Sidebar spacing */
+#aside-content .card-widget {
+  margin-bottom: 28px;
+  padding: 28px;
+}
+
+#aside-content .item-headline {
+  color: rgba(248, 250, 252, 0.9);
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  font-size: 1.1rem;
+}
+
+#aside-content .card-info .author-info__name {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+#aside-content .card-info .author-info__description {
+  color: var(--by-muted);
+  line-height: 1.6;
+  font-size: 1.02rem;
+}
+
+#aside-content .card-info .card-info-social-icons i {
+  color: var(--by-muted);
+}
+
+#aside-content .card-info .card-info-social-icons i:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Code block separation */
+pre,
+figure.highlight {
+  background: rgba(2, 6, 23, 0.72) !important;
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  border-radius: 14px;
+}
+
+/* Tags as compact pills */
+a.article-meta__tags,
+.tag-cloud-list a,
+#aside-content .card-tag-cloud a {
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  background: rgba(15, 23, 42, 0.48);
+  border-radius: 999px;
+  color: var(--by-muted) !important;
+  padding: 4px 10px;
+}
+
+a.article-meta__tags:hover,
+.tag-cloud-list a:hover,
+#aside-content .card-tag-cloud a:hover {
+  border-color: rgba(245, 245, 245, 0.2);
+  color: rgba(245, 245, 245, 0.9) !important;
+  background: rgba(245, 245, 245, 0.08);
+}
+
+/* ── Avatar: disable rotation (theme hardcodes .avatar-img img:hover rotate) ── */
+.avatar-img img,
+.avatar-img img:hover {
+  transform: none !important;
+  animation: none !important;
+  transition: filter 0.25s ease !important;
+}
+
+/* ── Homepage pixel focus chart (hidden) ── */
+#hero-pixel-lab {
+  display: none !important;
+}
+
+.pixel-chart-wrap {
+  width: 100%;
+}
+
+.pixel-chart {
+  display: grid;
+  /* 6 bars max so each column is wide enough for horizontal labels */
+  grid-template-columns: repeat(6, 1fr);
+  align-items: end;
+  gap: clamp(20px, 2.2vw, 40px);
+  height: min(62vh, 520px);
+  min-height: 390px;
+  padding: 8px 0 0;
+}
+
+.pixel-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  min-width: 0;
+  overflow: visible;
+}
+
+.pixel-bar {
+  position: relative;
+  width: clamp(48px, 5vw, 96px);
+  height: calc((var(--level) / 12) * 100%);
+  min-height: 64px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.pixel-fill {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px 4px 2px 2px;
+  background: linear-gradient(180deg, rgba(245, 245, 245, 0.9), rgba(113, 113, 122, 0.72));
+  box-shadow: 0 0 0 1px rgba(245, 245, 245, 0.08), 0 18px 36px rgba(0, 0, 0, 0.45);
+  transform-origin: bottom;
+  transition: transform 0.24s ease, background 0.24s ease, box-shadow 0.24s ease;
+}
+
+.pixel-item:hover .pixel-fill {
+  transform: scaleY(1.035);
+  background: linear-gradient(180deg, #fff, rgba(161, 161, 170, 0.88));
+  box-shadow: 0 0 0 1px rgba(245, 245, 245, 0.18), 0 22px 44px rgba(0, 0, 0, 0.55);
+}
+
+/* Horizontal label – contained in column, wraps on long names */
+.pixel-label {
+  width: 100%;
+  margin-top: 14px;
+  color: rgba(245, 245, 245, 0.72);
+  font-family: Consolas, Monaco, monospace;
+  font-size: clamp(10px, 0.82vw, 12px);
+  line-height: 1.35;
+  text-align: center;
+  word-break: break-word;
+  hyphens: auto;
+  opacity: 1;
+  transform: scale(1);
+  transform-origin: top center;
+  transition: color 0.2s ease, transform 0.2s ease;
+  user-select: none;
+}
+
+.pixel-item:hover .pixel-label {
+  color: rgba(255, 255, 255, 1);
+  transform: scale(1.2);
+}
+
+/* 4K / ultra-wide breathing room */
+@media (min-width: 2000px) {
+  #page-header.full_page {
+    grid-template-columns: minmax(480px, 0.7fr) minmax(900px, 1.8fr);
+    column-gap: clamp(80px, 6vw, 160px);
+    padding: 0 clamp(120px, 10vw, 220px);
+  }
+
+  #hero-pixel-lab {
+    max-width: 1400px;
+  }
+
+  .pixel-chart {
+    grid-template-columns: repeat(6, 1fr);
+    height: min(66vh, 660px);
+    min-height: 500px;
+    gap: clamp(40px, 3vw, 72px);
+  }
+
+  .pixel-bar {
+    width: clamp(64px, 5vw, 116px);
+  }
+
+  .pixel-label {
+    font-size: clamp(12px, 0.82vw, 16px);
+  }
+
+  #content-inner {
+    max-width: 1760px;
+    padding-top: 72px;
+  }
+
+  .layout {
+    gap: 72px;
+  }
+
+  #recent-posts .recent-post-item {
+    min-height: 240px;
+    margin-bottom: 48px;
+  }
+
+  #aside-content .card-widget {
+    margin-bottom: 40px;
+    padding: 36px;
+  }
+}
+
+/* Large desktop breathing room (1440–1999px) */
+@media (min-width: 1440px) and (max-width: 1999px) {
+  #content-inner {
+    max-width: 1520px;
+    padding-top: 52px;
+  }
+
+  .layout {
+    gap: 56px;
+  }
+
+  #recent-posts .recent-post-item {
+    margin-bottom: 36px;
+  }
+}
+
+/* Mobile polish */
+@media (max-width: 1100px) {
+  #page-header.full_page {
+    padding: 0 clamp(28px, 5vw, 72px);
+  }
+}
+
+@media (max-width: 768px) {
+  #nav {
+    padding: 10px 16px;
+  }
+
+  #page-header.full_page {
+    padding: 0 20px;
+  }
+
+  .layout {
+    gap: 18px;
+  }
+
+  #recent-posts .recent-post-item,
+  #aside-content .card-widget,
+  div#post,
+  div#page {
+    border-radius: 18px;
+  }
+
+  #page-header.full_page #site-info {
+    margin: 0 auto;
+    text-align: center;
+  }
+}

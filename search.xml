@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Start Here</title>
+    <url>/2026/05/07/hello-world/</url>
+    <content><![CDATA[<p>Welcome to my technical blog. I use this space to organize research notes, engineering experiments, and long-term learning records around computer vision and intelligent systems.</p>
+<h2 id="Focus-Areas"><a href="#Focus-Areas" class="headerlink" title="Focus Areas"></a>Focus Areas</h2><ul>
+<li>Action Recognition</li>
+<li>Eye Tracking</li>
+<li>Vision-Language Models</li>
+<li>Agent Systems</li>
+<li>Embodied AI</li>
+<li>Event-based Vision</li>
+</ul>
+<h2 id="What-I-Write"><a href="#What-I-Write" class="headerlink" title="What I Write"></a>What I Write</h2><p>This blog is designed as a working notebook rather than a polished portfolio only. I care about reproducible experiments, clear implementation details, and concise summaries that can be revisited later.</p>
+<h2 id="How-to-Read"><a href="#How-to-Read" class="headerlink" title="How to Read"></a>How to Read</h2><p>Use the tag page to browse topics by research direction. I will keep the site minimal and focused on technical content.</p>
+]]></content>
+      <categories>
+        <category>Action Recognition</category>
+      </categories>
+      <tags>
+        <tag>Eye Tracking</tag>
+        <tag>VLM</tag>
+        <tag>Agent</tag>
+        <tag>Embodied AI</tag>
+        <tag>Engineering</tag>
+        <tag>LeetCode &amp; Interviews</tag>
+        <tag>Event-based Vision</tag>
+      </tags>
+  </entry>
+</search>

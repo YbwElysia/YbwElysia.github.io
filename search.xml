@@ -28,4 +28,54 @@
         <tag>Event-based Vision</tag>
       </tags>
   </entry>
+  <entry>
+    <title>How to Read Papers</title>
+    <url>/2026/05/21/read-papar/</url>
+    <content><![CDATA[<blockquote>
+<p><em>“Reading maketh a full man, conference a ready man, and writing an exact man.”</em> — Francis Bacon</p>
+</blockquote>
+<p>Staying current with AI research depends on how you read papers. I treat this post as a living note and will keep refining the workflow below.</p>
+<h2 id="1-Finding-a-Research-Topic"><a href="#1-Finding-a-Research-Topic" class="headerlink" title="1. Finding a Research Topic"></a>1. Finding a Research Topic</h2><p>Use LLMs to surface popular recent surveys in your area. Check whether a survey’s <strong>Discussion</strong> section points out limitations—those gaps often suggest research directions. On Google Scholar, papers that cite a survey are usually among the newest work in the field.</p>
+<h2 id="2-Rough-Reading"><a href="#2-Rough-Reading" class="headerlink" title="2. Rough Reading"></a>2. Rough Reading</h2><p>A rough read is no longer “skim abstract and conclusion only.” I delegate this step to LLMs: ask for a summary plus an analysis of <strong>innovations</strong> and <strong>weaknesses</strong>. That helps most when the paper does not state limitations clearly.</p>
+<h2 id="3-Detailed-Reading"><a href="#3-Detailed-Reading" class="headerlink" title="3. Detailed Reading"></a>3. Detailed Reading</h2><p>Detailed reading means at least two passes—one fast, one slow—and two situations: <strong>familiar with the field</strong> or <strong>unfamiliar with the field</strong>.</p>
+<h3 id="3-1-Preface"><a href="#3-1-Preface" class="headerlink" title="3.1 Preface"></a>3.1 Preface</h3><p>For algorithm-heavy AI work today, if code is <strong>not open-sourced</strong>, I usually <strong>skip a deep read</strong>. Unstable datasets and unreproducible pipelines mean a method may look strong on paper but fail in practice. Fabricated results are, unfortunately, not rare. I do not support closed-source publication unless funding rules require confidentiality.</p>
+<h3 id="3-2-Familiar-with-the-Field"><a href="#3-2-Familiar-with-the-Field" class="headerlink" title="3.2 Familiar with the Field"></a>3.2 Familiar with the Field</h3><ul>
+<li>Use an LLM on the <strong>Introduction</strong> to extract the <strong>problem</strong> and <strong>contributions</strong>.</li>
+<li>Skip <strong>Related Work</strong> and go straight to <strong>Methods</strong>.</li>
+</ul>
+<h3 id="3-3-Unfamiliar-with-the-Field"><a href="#3-3-Unfamiliar-with-the-Field" class="headerlink" title="3.3 Unfamiliar with the Field"></a>3.3 Unfamiliar with the Field</h3><ul>
+<li>Read <strong>Related Work</strong> and identify the closest prior paper—authors usually explain it in more detail. You may need a mini deep-read of that paper too.</li>
+</ul>
+<h3 id="3-4-First-Pass"><a href="#3-4-First-Pass" class="headerlink" title="3.4 First Pass"></a>3.4 First Pass</h3><ul>
+<li>Focus on <strong>main experiments</strong> only; ignore secondary ablations for now.</li>
+<li>Avoid heavy note apps (Typora, Obsidian, etc.) in this pass. Prefer Zotero, EndNote, or similar tools for short inline annotations.</li>
+</ul>
+<h3 id="3-5-Second-Pass"><a href="#3-5-Second-Pass" class="headerlink" title="3.5 Second Pass"></a>3.5 Second Pass</h3><ul>
+<li>Read the <strong>method</strong> and <strong>open-source code</strong> carefully.</li>
+<li>Be able to <strong>explain each step in your own words</strong>, especially the overview figure.</li>
+<li>Read <strong>all experiments</strong> and ask <strong>why each one was designed</strong>.</li>
+<li>If this paper is a strong baseline for your own work:<ul>
+<li>Rough-read the compared methods’ experimental setups.</li>
+<li>Deep-read this paper’s setup line by line.</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-6-After-the-Second-Pass"><a href="#3-6-After-the-Second-Pass" class="headerlink" title="3.6 After the Second Pass"></a>3.6 After the Second Pass</h3><p>Consider a <strong>reading note</strong> on your blog. A useful template includes:</p>
+<ul>
+<li>Problem statement</li>
+<li>List of innovations</li>
+<li>Full algorithm flow</li>
+<li>Key experiments and data analysis</li>
+<li>At least <strong>one self-drawn figure</strong> (besides figures from the paper)</li>
+<li>Annotated <strong>code snippets</strong> where they matter</li>
+</ul>
+<p>Before publishing, <strong>discuss and proofread</strong> the draft with an LLM.</p>
+<h3 id="3-7-Final-Step"><a href="#3-7-Final-Step" class="headerlink" title="3.7 Final Step"></a>3.7 Final Step</h3><p>After the second pass, add a <strong>knowledge-graph link</strong> to the PDF so the reading loop is closed.</p>
+<hr>
+<p>This is my personal workflow. It is still incomplete—I will keep updating it as I learn.</p>
+]]></content>
+      <tags>
+        <tag>Research Notes</tag>
+      </tags>
+  </entry>
 </search>

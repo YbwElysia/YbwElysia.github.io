@@ -1,0 +1,279 @@
+<!DOCTYPE html><html lang="en" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>How to Read Papers | Bowen Yin's Blog</title><meta name="author" content="Bowen Yin"><meta name="copyright" content="Bowen Yin"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="“Reading maketh a full man, conference a ready man, and writing an exact man.” — Francis Bacon  Staying current with AI research depends on how you read papers. I treat this post as a living note and">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to Read Papers">
+<meta property="og:url" content="https://ybwelysia.github.io/2026/05/21/read-papar/index.html">
+<meta property="og:site_name" content="Bowen Yin&#39;s Blog">
+<meta property="og:description" content="“Reading maketh a full man, conference a ready man, and writing an exact man.” — Francis Bacon  Staying current with AI research depends on how you read papers. I treat this post as a living note and">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://ybwelysia.github.io/img/avatar.png">
+<meta property="article:published_time" content="2026-05-21T12:15:00.000Z">
+<meta property="article:modified_time" content="2026-05-21T07:39:47.235Z">
+<meta property="article:author" content="Bowen Yin">
+<meta property="article:tag" content="Research Notes">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://ybwelysia.github.io/img/avatar.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How to Read Papers",
+  "url": "https://ybwelysia.github.io/2026/05/21/read-papar/",
+  "image": "https://ybwelysia.github.io/img/avatar.png",
+  "datePublished": "2026-05-21T12:15:00.000Z",
+  "dateModified": "2026-05-21T07:39:47.235Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Bowen Yin",
+      "url": "https://ybwelysia.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://ybwelysia.github.io/2026/05/21/read-papar/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"No results found for: ${query}","hits_stats":"${hits} articles found"}},
+  translate: undefined,
+  highlight: {"plugin":"prismjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'How to Read Papers',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/css/night-sky.css"><meta name="generator" content="Hexo 8.1.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Links</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Bowen Yin's Blog</span></a><a class="nav-page-title" href="/"><span class="site-name">How to Read Papers</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  Back to Home</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Links</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> About</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">How to Read Papers</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2026-05-21T12:15:00.000Z" title="Created 2026-05-21 20:15:00">2026-05-21</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2026-05-21T07:39:47.235Z" title="Updated 2026-05-21 15:39:47">2026-05-21</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><blockquote>
+<p><em>“Reading maketh a full man, conference a ready man, and writing an exact man.”</em> — Francis Bacon</p>
+</blockquote>
+<p>Staying current with AI research depends on how you read papers. I treat this post as a living note and will keep refining the workflow below.</p>
+<h2 id="1-Finding-a-Research-Topic"><a href="#1-Finding-a-Research-Topic" class="headerlink" title="1. Finding a Research Topic"></a>1. Finding a Research Topic</h2><p>Use LLMs to surface popular recent surveys in your area. Check whether a survey’s <strong>Discussion</strong> section points out limitations—those gaps often suggest research directions. On Google Scholar, papers that cite a survey are usually among the newest work in the field.</p>
+<h2 id="2-Rough-Reading"><a href="#2-Rough-Reading" class="headerlink" title="2. Rough Reading"></a>2. Rough Reading</h2><p>A rough read is no longer “skim abstract and conclusion only.” I delegate this step to LLMs: ask for a summary plus an analysis of <strong>innovations</strong> and <strong>weaknesses</strong>. That helps most when the paper does not state limitations clearly.</p>
+<h2 id="3-Detailed-Reading"><a href="#3-Detailed-Reading" class="headerlink" title="3. Detailed Reading"></a>3. Detailed Reading</h2><p>Detailed reading means at least two passes—one fast, one slow—and two situations: <strong>familiar with the field</strong> or <strong>unfamiliar with the field</strong>.</p>
+<h3 id="3-1-Preface"><a href="#3-1-Preface" class="headerlink" title="3.1 Preface"></a>3.1 Preface</h3><p>For algorithm-heavy AI work today, if code is <strong>not open-sourced</strong>, I usually <strong>skip a deep read</strong>. Unstable datasets and unreproducible pipelines mean a method may look strong on paper but fail in practice. Fabricated results are, unfortunately, not rare. I do not support closed-source publication unless funding rules require confidentiality.</p>
+<h3 id="3-2-Familiar-with-the-Field"><a href="#3-2-Familiar-with-the-Field" class="headerlink" title="3.2 Familiar with the Field"></a>3.2 Familiar with the Field</h3><ul>
+<li>Use an LLM on the <strong>Introduction</strong> to extract the <strong>problem</strong> and <strong>contributions</strong>.</li>
+<li>Skip <strong>Related Work</strong> and go straight to <strong>Methods</strong>.</li>
+</ul>
+<h3 id="3-3-Unfamiliar-with-the-Field"><a href="#3-3-Unfamiliar-with-the-Field" class="headerlink" title="3.3 Unfamiliar with the Field"></a>3.3 Unfamiliar with the Field</h3><ul>
+<li>Read <strong>Related Work</strong> and identify the closest prior paper—authors usually explain it in more detail. You may need a mini deep-read of that paper too.</li>
+</ul>
+<h3 id="3-4-First-Pass"><a href="#3-4-First-Pass" class="headerlink" title="3.4 First Pass"></a>3.4 First Pass</h3><ul>
+<li>Focus on <strong>main experiments</strong> only; ignore secondary ablations for now.</li>
+<li>Avoid heavy note apps (Typora, Obsidian, etc.) in this pass. Prefer Zotero, EndNote, or similar tools for short inline annotations.</li>
+</ul>
+<h3 id="3-5-Second-Pass"><a href="#3-5-Second-Pass" class="headerlink" title="3.5 Second Pass"></a>3.5 Second Pass</h3><ul>
+<li>Read the <strong>method</strong> and <strong>open-source code</strong> carefully.</li>
+<li>Be able to <strong>explain each step in your own words</strong>, especially the overview figure.</li>
+<li>Read <strong>all experiments</strong> and ask <strong>why each one was designed</strong>.</li>
+<li>If this paper is a strong baseline for your own work:<ul>
+<li>Rough-read the compared methods’ experimental setups.</li>
+<li>Deep-read this paper’s setup line by line.</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-6-After-the-Second-Pass"><a href="#3-6-After-the-Second-Pass" class="headerlink" title="3.6 After the Second Pass"></a>3.6 After the Second Pass</h3><p>Consider a <strong>reading note</strong> on your blog. A useful template includes:</p>
+<ul>
+<li>Problem statement</li>
+<li>List of innovations</li>
+<li>Full algorithm flow</li>
+<li>Key experiments and data analysis</li>
+<li>At least <strong>one self-drawn figure</strong> (besides figures from the paper)</li>
+<li>Annotated <strong>code snippets</strong> where they matter</li>
+</ul>
+<p>Before publishing, <strong>discuss and proofread</strong> the draft with an LLM.</p>
+<h3 id="3-7-Final-Step"><a href="#3-7-Final-Step" class="headerlink" title="3.7 Final Step"></a>3.7 Final Step</h3><p>After the second pass, add a <strong>knowledge-graph link</strong> to the PDF so the reading loop is closed.</p>
+<hr>
+<p>This is my personal workflow. It is still incomplete—I will keep updating it as I learn.</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="https://ybwelysia.github.io">Bowen Yin</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="https://ybwelysia.github.io/2026/05/21/read-papar/">https://ybwelysia.github.io/2026/05/21/read-papar/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles on this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless otherwise stated.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Research-Notes/">Research Notes</a></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2026/05/07/hello-world/" title="Start Here"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">Next</div><div class="info-item-2">Start Here</div></div><div class="info-2"><div class="info-item-1">Welcome to my technical blog. I use this space to organize research notes, engineering experiments, and long-term learning records around computer vision and intelligent systems. Focus Areas Action Recognition Eye Tracking Vision-Language Models Agent Systems Embodied AI Event-based Vision  What I WriteThis blog is designed as a working notebook rather than a polished portfolio only. I care about reproducible experiments, clear implementation details, and concise summaries that can be revisit...</div></div></div></a></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> Comments</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Bowen Yin</div><div class="author-info-description">Action Recognition | Eye Tracking | VLM | Agent | Embodied AI</div><div class="site-data"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/YbwElysia"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/YbwElysia" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:elisia.ybw@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Finding-a-Research-Topic"><span class="toc-text">1. Finding a Research Topic</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Rough-Reading"><span class="toc-text">2. Rough Reading</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Detailed-Reading"><span class="toc-text">3. Detailed Reading</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-Preface"><span class="toc-text">3.1 Preface</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-Familiar-with-the-Field"><span class="toc-text">3.2 Familiar with the Field</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-3-Unfamiliar-with-the-Field"><span class="toc-text">3.3 Unfamiliar with the Field</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-4-First-Pass"><span class="toc-text">3.4 First Pass</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-5-Second-Pass"><span class="toc-text">3.5 Second Pass</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-6-After-the-Second-Pass"><span class="toc-text">3.6 After the Second Pass</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-7-Final-Step"><span class="toc-text">3.7 Final Step</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Posts</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/05/21/read-papar/" title="How to Read Papers">How to Read Papers</a><time datetime="2026-05-21T12:15:00.000Z" title="Created 2026-05-21 20:15:00">2026-05-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/05/07/hello-world/" title="Start Here">Start Here</a><time datetime="2026-05-07T12:15:00.000Z" title="Created 2026-05-07 20:15:00">2026-05-07</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By Bowen Yin</span><span class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.4</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Reading Mode"><i class="fas fa-book-open"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table of Contents"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="Scroll to Comments"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getGiscusTheme = theme => theme === 'dark' ? 'dark' : 'light'
+
+  const createScriptElement = config => {
+    const ele = document.createElement('script')
+    Object.entries(config).forEach(([key, value]) => {
+      ele.setAttribute(key, value)
+    })
+    return ele
+  }
+
+  const loadGiscus = (el = document, key) => {
+    const mappingConfig = isShuoshuo
+      ? { 'data-mapping': 'specific', 'data-term': key }
+      : { 'data-mapping': (option && option['data-mapping']) || 'pathname' }
+
+    const giscusConfig = {
+      src: 'https://giscus.app/client.js',
+      'data-repo': '',
+      'data-repo-id': '',
+      'data-category-id': '',
+      'data-theme': getGiscusTheme(document.documentElement.getAttribute('data-theme')),
+      'data-reactions-enabled': '1',
+      crossorigin: 'anonymous',
+      async: true,
+      ...option,
+      ...mappingConfig
+    }
+
+    const scriptElement = createScriptElement(giscusConfig)
+
+    el.querySelector('#giscus-wrap').appendChild(scriptElement)
+
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyGiscus = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+  }
+
+  const changeGiscusTheme = theme => {
+    const iframe = document.querySelector('#giscus-wrap iframe')
+    if (iframe) {
+      const message = {
+        giscus: {
+          setConfig: {
+            theme: getGiscusTheme(theme)
+          }
+        }
+      }
+      iframe.contentWindow.postMessage(message, 'https://giscus.app')
+    }
+  }
+
+  btf.addGlobalFn('themeChange', changeGiscusTheme, 'giscus')
+
+  if (isShuoshuo) {
+    'Giscus' === 'Giscus'
+      ? window.shuoshuoComment = { loadComment: loadGiscus }
+      : window.loadOtherComment = loadGiscus
+    return
+  }
+
+  if ('Giscus' === 'Giscus' || !false) {
+    if (false) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+    else loadGiscus()
+  } else {
+    window.loadOtherComment = loadGiscus
+  }
+})()</script></div><script src="/js/night-sky.js"></script><script src="/js/hero-pixel.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading Database</span></div><div class="local-search-input"><input placeholder="Search for Posts" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.4"></script></div></div></body></html>
